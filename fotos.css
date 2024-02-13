@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  
+  text-decoration: none;
+
+  list-style: none;
+ 
+
+}
+header {
+  height: 90px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  position: static;
+  
+  
+}
+
+
+
+nav {
+    width: 60%;
+   
+}
+ul {
+    display: flex;
+    width:100% ;
+    justify-content: space-between;
+}
+li{
+    list-style: none ;
+    color: aliceblue;
+    cursor: pointer ;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+li:hover {
+    color: #d21617;
+}
+.Home{
+  list-style: none ;
+
+  cursor: pointer ;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+#logo {
+    width: 150px;
+    height: 90px;
+    
+    
+}
+#bloco-fotos{
+    
+    width: 100%;
+    height: auto;
+   background-color: slategrey;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+.fotos{
+   
+    width: 250px;
+    height: 300px;
+    margin: 5px;
+    background-image: url('http://cdn.cheatcc.com/images/imagesxbox360/batmanarkhamorigins_3a.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+
+}
+.fotos2{
+   margin: 5px;
+  
+    width: 250px;
+    height: 300px;
+    background-image: url('https://wallpaperaccess.com/full/1127013.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos3{
+    margin: 5px;
+ 
+    width: 250px;
+    height: 300px;
+    background-image: url('https://jornadageek.com.br/wp-content/uploads/2021/01/michael-keaton-batman-1068x601.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos4{
+    margin: 5px;
+    
+    width: 250px;
+    height: 300px;
+    background-image: url('https://wallpaperaccess.com/full/3113717.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.fotos5{
+    margin: 5px;
+ 
+    width: 250px;
+    height: 300px;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.GhVHrA7G1y7dEcWD1fHIHQHaE8&pid=Api&P=0&h=180');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos6{
+    margin: 5px;
+   
+    width: 250px;
+    height: 300px;
+    background-image: url('https://www.geekproject.com.br/wp-content/uploads/2014/12/29_3_Batmobile-1989.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos7{
+    margin: 5px;
+    
+    width: 250px;
+    height: 300px;
+    background-image: url('https://images.indulgexpress.com/uploads/user/ckeditor_images/article/2019/9/9/gordon_1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos8{
+    margin: 5px;
+   
+    width: 250px;
+    height: 300px;
+    background-image: url('https://images.hdqwalls.com/download/batman-and-jim-gordon-a0-1920x1080.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos9{
+    margin: 5px;
+    
+    width: 250px;
+    height: 300px;
+    background-image: url('http://media.comicbook.com/uploads1/2014/12/batman-on-a-cell-phone-116752.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+}
+.fotos10{
+    margin: 5px;
+    
+    width: 250px;
+    height: 300px;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.p7Sbx05mQs19FgSNSPkDTgAAAA&pid=Api&P=0&h=180');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 3s;
+
+}
+.fotos:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos2:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos3:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos4:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos5:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos6:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos7:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos8:hover{
+    width: 600px;
+    height: auto;
+
+}.fotos9:hover{
+    width: 600px;
+    height: auto;
+
+}
+.fotos10:hover{
+    width: 600px;
+    height: auto;
+
+}
+footer {
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+  
+  }
+  span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif  ;
+  }
+  .footer-navegation{
+    display: none;
+    
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media(max-width: 768px){
+    .footer-navegation{
+      display: block;
+    }
+    nav{
+        display: none;
+    }
+    #bloco-fotos{
+    
+     
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+}

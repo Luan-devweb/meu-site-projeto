@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+  list-style: none;
+  text-decoration: none;
+
+}
+header {
+  height: 90px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: black;
+  
+  
+}
+
+
+
+nav {
+    width: 60%;
+}
+#list-start {
+    display: flex;
+    width:100% ;
+    justify-content: space-between;
+}
+#list-li{
+    list-style: none ;
+    color: aliceblue;
+    cursor: pointer ;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+#list-li:hover {
+    color: #d21617;
+}
+.Home{
+  list-style: none ;
+  
+  cursor: pointer ;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+#logo {
+    width: 150px;
+    height: 90px;
+    
+    
+}
+.inicio{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1579px;
+  margin-top: 16px;
+}
+.foto1{
+    
+  width: 218px;
+  height: 195px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2190/2190510.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -104px;
+  margin-top: 32px;
+}
+.foto2{
+    
+    height: 270px;
+    background-image: url(https://images.hdqwalls.com/download/the-batman-2020-movie-poster-5k-gg-2560x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 29% 31%;
+    width: 919px;
+}
+
+.foto3{
+    
+  width: 200px;
+  height: 249px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2190/2190510.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  background-position: 29% 54%;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #004d00;
+   
+    
+}
+
+#Comentario{
+    color: black;
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-top: 50px;
+
+
+}
+.carlos::before{
+  content: "";
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.3hckg2BT4mldMAuuo6TUrQHaHa&pid=Api&P=0&h=180');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-top: 25px;
+
+}
+
+  
+  
+  .ana::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://alexandracriollo.com/wp-content/uploads/2020/12/10-cosas-que-revela-tu-foto-de-perfil-2-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+  }
+  .mariana::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://www.okchicas.com/wp-content/uploads/2018/01/Poses-para-una-buena-foto-de-perfil-4-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 15px;
+  }
+  .ricardo::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('http://www.fabricadeexperiencias.com.mx/uploads/editorI20190114111616.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+  }
+  .Isabel::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://i.pinimg.com/564x/88/0b/c8/880bc8f8fc4bed0bf3b0c549546c63f7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+  }
+  .joao::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://i.pinimg.com/736x/20/08/bb/2008bb7d4bf7eb9575021c8ae7bf51a8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 40% 2%;
+    margin-top: 25px;
+  }
+  .patricia::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://i.pinimg.com/736x/94/55/72/94557248162d6bb98fcbe1af70f00a12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50% 2%;
+    margin-top: 25px;
+  }
+  .pedro::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('http://static.boredpanda.es/blog/wp-content/uploads/2015/01/fotos-divertidas-perfil-facebook-13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+  }
+  .beatriz::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://pymstatic.com/14372/conversions/foto-perfil-matches-small-16_9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 78% 0px;
+    margin-top: 25px;
+  }
+  .lucas::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://www.mendozapost.com/files/image/14/14079/54f0601a47721.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+  }
+   #coment{
+   
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    bottom: 21px;
+    margin: 20px;
+    padding: 30px;
+   
+   }
+   #adcoment{
+    border: none;
+    text-decoration: #000;
+    width: 230px;
+    
+    font-size: 17px;
+    color: black;
+    background-color: #938F99;
+   }
+   .comentenviar{
+    background-color: #d21617;
+    color: #fff;
+    width: 68px;
+    border-radius: 18%;
+    transition: .8s;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    
+
+   }
+   .comentenviar:hover{
+    background-color: #bcbcbc;
+    color: #000;
+
+   }
+  
+  footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+  }
+  span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif  ;
+  }
+  .footer-navegation{
+    display: none;
+    
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media(max-width: 768px){
+    .footer-navegation{
+      display: block;
+    }
+  
+    nav {
+      display: none;
+    }
+    #lifoot{
+      color: aliceblue;
+      font-size: 23px;
+    }
+
+    #Comentario{
+     
+      display: flex;
+       
+      padding-left: 42px;
+      position: relative;
+    }
+
+  }
+  
